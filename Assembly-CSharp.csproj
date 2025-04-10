@@ -41,9 +41,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\Player\PlayerController.cs" />
+     <Compile Include="Assets\Ladders\VerticalPlatformController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Level" />
+     <Folder Include="Assets\Player" />
+     <Folder Include="Assets\Ladders" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity 2022.1.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
