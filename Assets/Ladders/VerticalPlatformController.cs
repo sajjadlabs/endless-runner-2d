@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class VerticalPlatformController : MonoBehaviour
 {
     private PlatformEffector2D _platform;
@@ -35,10 +34,15 @@ public class VerticalPlatformController : MonoBehaviour
             }
         }
 
-        if (HitUpArrowKey())
+        if (HitSpaceArrowKey() || HitUpArrowKey())
         {
             _platform.rotationalOffset = 0f;
         }
+    }
+
+    private static bool HitUpArrowKey()
+    {
+        return Input.GetKey(KeyCode.UpArrow);
     }
 
     private static bool ReleaseDownKey()
@@ -51,8 +55,8 @@ public class VerticalPlatformController : MonoBehaviour
         return Input.GetKey(KeyCode.DownArrow);
     }
 
-    private static bool HitUpArrowKey()
+    private static bool HitSpaceArrowKey()
     {
-        return Input.GetKey(KeyCode.UpArrow);
+        return Input.GetKey(KeyCode.Space);
     }
 }

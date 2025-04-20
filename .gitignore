@@ -1,28 +1,32 @@
-# Ignore Unity-specific folders and files
+# Ignore Unity-specific folders and files 
 [Ll]ibrary/
 [Tt]emp/
 [Tt]argets/
+
 # .vs folder (Visual Studio)
 .vs/
+
 # User-specific files
 .vscode/
 .idea/
+
 # Build results
 build/
 Build/
 builds/
+
 # User-specific settings
 UserSettings/
 # Logs
 Logs/
+
 # Unity cache
 cache/
-# Package manager settings (avoid versioning package manager files)
-Packages/manifest.json
-Packages/packages-lock.json
+
 # Prefabs/asset files generated during the build
 *.apk
 *.unitypackage
+
 # OS-specific files
 .DS_Store
 Thumbs.db

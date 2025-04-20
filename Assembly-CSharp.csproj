@@ -41,8 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Player\PlayerController.cs" />
      <Compile Include="Assets\Ladders\VerticalPlatformController.cs" />
+     <Compile Include="Assets\Player\PlayerController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Level" />
      <Folder Include="Assets\Player" />
